@@ -170,4 +170,9 @@ Move to separate stylesheet if invalid CSS is a problem.
 */
 .clearfix {
 	zoom: 1;
+	text-align:center;
+}
+.clearfix img{
+	width:150px;
+	height:150px;
 }
