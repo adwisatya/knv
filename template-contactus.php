@@ -18,6 +18,25 @@ Template Name: Contact Us
 
 
 get_header(); ?>
+
+<style>
+table {
+   margin-left: -200px;
+  margin-right: auto;
+  width:200%;
+} 
+th{
+	text-align: right;
+}
+td {
+	text-align: left;
+	font-size: 16px;
+	vertical-align: middle;
+}
+p{
+	text-align: center;
+}
+</style>
 	<div id="feature-section" class="cf">	
 	<div class="latest-head grid_12">
 		<h3>How to Buy</h3>
@@ -26,32 +45,68 @@ get_header(); ?>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf">
 			<div>
-				<p style="text-align:center;">
+				<p>
 				Drop us an email, text us or catch us on social media to get your <font face ='big_noodle_titling.ttf'> KANAVAIA </font>
 				collections right away !
 				</p>
-				<p style = " text-align:center;">(Don't forget to specify your orders and details to us)
+				<p>(Don't forget to specify your orders and details to us)
 				</p>
-				<p style="text-align:center;" >
+<p>
+					<table>
+						<tr>
+						<th>
 				<a href = "mailto:shop@kanavaia.com">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/emailicon.png" width="5%" height="5%" ></img> shop@kanavaia.com
-				</a>
-				<br>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/emailicon.png" width="5%" height="5%" ></img> </a>
+				</th>				
+				<td><a href = "mailto:shop@kanavaia.com"> shop@kanavaia.com</a></td>
+				</tr>
+
+				<tr>
+			<th>
 				<a href = "http://www.instagram.com/kanavaia">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/instaicon.png" width="5%" height="5%" ></img> kanavaia
-				</a>
-				<br>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/instaicon.png" width="5%" height="5%" ></img> </a> 
+				</th>
+				<td>
+					<a href = "http:// www.instagram.com/kanavaia"> kanavaia </a>
+				</td>
+
+				</tr>
+
+		<tr>
+					<th>						
 				<a href = "http://www.twitter.com/kanavaia">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/twittericon.png" width="5%" height="5%" ></img> @kanavaia
+					<img src="<?php echo get_template_directory_uri(); ?>/images/twittericon.png" width="5%" height="5%" ></img> </a>
+				</th>
+				<td>
+						<a href= " http://www.twitter.com/kanavaia">@kanavaia
 				</a>
-				<br>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/lineicon.png" width="5%" height="5%" ></img> kanavaia
-				<br><img src="<?php echo get_template_directory_uri(); ?>/images/phoneicon.png" width="5%" height="5%" ></img> +6281905944988
-				<br>
+			</td>
+		</tr>
+				<tr>
+					<th>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/lineicon.png" width="5%" height="5%" ></img> 
+			</th>
+				<td>kanavaia</td>
+				</tr>
+				<tr>
+					<th>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/phoneicon.png" width="5%" height="5%" ></img>
+					</th>
+						<td> +6281905944988</td>
+					</tr>
+
+				<tr>
+					<th>
 				<a href ="http://www.facebook.com/kanavaia.">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/facebookicon.png" width="5%" height="5%" ></img> kanavaia.
+					<img src="<?php echo get_template_directory_uri(); ?>/images/facebookicon.png" width="5%" height="5%" ></img> </a>
+				</th>
+					<td>
+						<a href = "http://www.facebook.com/kanavaia.">kanavaia.</a>
 				</a>
-				</p>
+			</td>
+		</tr>
+	</table>
+</p>
 			</div>
 		</div>
 		<div class="grid_12">
