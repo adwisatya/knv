@@ -22,44 +22,11 @@ get_header(); ?>
 		<div id="slide">
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
-					<ul class="slides">
-					    <?php 	$count = of_get_option('w2f_slide_number');
-								$slidecat =of_get_option('w2f_slide_categories');
-								
-								$query = new WP_Query( array( 'post_type' =>'products','department'=>$slidecat, 'posts_per_page' =>$count ) );
-					           	if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();	?>
-					 	
-						 		<li>
-						 			
-								<?php
-									$thumb = get_post_thumbnail_id();
-									$img_url = wp_get_attachment_url( $thumb,'full' ); //get full URL to image (use "large" or "medium" if the images too big)
-									$image = aq_resize( $img_url, 600, 358, false ); //resize & crop the image
-								?>
-								
-								<?php if($image) : ?>
-									<a href="<?php the_permalink(); ?>"><img class="slideimg" src="<?php echo $image ?>"/></a>
-								<?php endif; ?>
-				
-								<div class="flex-caption">
-								
-									<h3><?php the_title(); ?> - <?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?></h3>   
-									<p><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>
-								</div>
-						<?php endwhile; endif; ?>
-								    		
-					  </li>
-					</ul>
+					News &nbsp;|&nbsp; Promo &nbsp;|&nbsp; Event<br/>
+					<img src='http://localhost/KANAVAIA/wp-content/themes/Viper/images/slideshow/News/5.jpg' width="940px;">
 				</div>	
 			</div>	
 		</div>
-		
-		<div id="banner-block">
-			<div class="head-banner">	<?php echo of_get_option('w2f_off_banner');	?>	</div>
-			
-			
-		</div>
-		
 	</div>
 			
 	<div class="clear"></div>
@@ -101,7 +68,7 @@ get_header(); ?>
 						<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
 					</div>
 					
-					<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p>
+					<!-- <p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p> -->
 					
 					<div class="prod-footer cf">
 						<span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span>

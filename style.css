@@ -724,11 +724,12 @@ input#s{
 	
 #feature-section{
 	margin:20px auto;
+	width:960px;
 }
 
 #slide{
-	width:598px;
-	height:358px;
+	width:inherited;
+	height:300px;
 	float:left;
 	margin-left:10px;
 	border:1px solid #e4e4e4;
@@ -785,8 +786,8 @@ input#s{
 .pricebar{
 	background: #f9f9f9;
 	border: 1px solid #e4e4e4;
-	padding:10px 0px
-	
+	padding:10px 0px;
+	text-align:center;
 }
 
 .pricebar h2{
@@ -813,7 +814,7 @@ span.pricetag{
 	margin-right: 20px;
 	line-height:100%;
 	color:#EB3807;
-	
+	display:none;
 }
 
 .prod-info p{
@@ -827,6 +828,7 @@ span.pricetag{
 	text-transform: uppercase;
 	font-weight: 500;
 	text-shadow: -1px -1px 0px #efefef;
+	text-align:center;
 }
 
 .prod-footer a:link, .prod-footer a:visited{
@@ -841,6 +843,7 @@ span.pricetag{
 .pright{
 	float: right;
 	margin-right: 20px;
+	display:none;
 }
 
 
