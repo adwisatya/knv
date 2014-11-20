@@ -24,15 +24,14 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 <div class="container_6">
-<div class="site-info">
-		<div class="fcred">
-		Copyright &copy; <?php echo date('Y');?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> - <?php bloginfo('description'); ?>.<br />
-		<?php fflink(); ?> | <a href="http://topwpthemes.com/<?php echo wp_get_theme(); ?>/" ><?php echo wp_get_theme(); ?> Theme</a> 	
-		</div>		
-</div><!-- .site-info -->	
-</footer><!-- #colophon .site-footer -->
+	<div class="site-info">
+			<div class="fcred">
+				<div align="right"><a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png" width="200px" height="35px"></a></div>
+			</div>		
+	</div><!-- .site-info -->	
 	
 </div><!-- #page .hfeed .site -->
+</footer><!-- #colophon .site-footer -->
 
 <?php wp_footer(); ?>
 
