@@ -1405,3 +1405,33 @@ padding:6px 9px 5px 9px;
 background: #EE3B0A;
 color:#fff;
 }
+
+#left-home-product{
+	float: left;
+	margin-left:125px;
+	text-align: left;
+
+}
+#left-home-product img{
+	width:200px;
+	height:35px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#right-home-product{
+	margin-right:125px;
+	text-align:right;
+
+}
+
+#right-home-product img{
+	width:200px;
+	height:35px;
+	border-style:solid;
+	border-width:1px;
+}
+#home-product-container{
+	margin-top:125px;
+	margin-bottom:225px;
+}
