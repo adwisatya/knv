@@ -1413,8 +1413,8 @@ color:#fff;
 
 }
 #left-home-product img{
-	width:200px;
-	height:35px;
+	width:250px;
+	height:50px;
 	border-style:solid;
 	border-width:1px;
 }
@@ -1426,12 +1426,18 @@ color:#fff;
 }
 
 #right-home-product img{
-	width:200px;
-	height:35px;
+	width:250px;
+	height:50px;
 	border-style:solid;
 	border-width:1px;
 }
 #home-product-container{
 	margin-top:125px;
 	margin-bottom:225px;
+}
+#xslideshow img
+{
+	position: absolute;
+	width:940px;
+	height:300px;
 }

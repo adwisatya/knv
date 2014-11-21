@@ -23,7 +23,15 @@ get_header(); ?>
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
 					News &nbsp;|&nbsp; Promo &nbsp;|&nbsp; Event<br/>
-					<img src='http://localhost/KANAVAIA/wp-content/themes/Viper/images/slideshow/News/5.jpg' width="940px;">
+					<div id='xslideshow' onClick="">
+						<?php
+							$dir=	dirname(__FILE__)."/images/slideshow/news/";
+							$files = scandir($dir,1);
+							for($i = 0;$i < count($files)-2;$i++){
+								echo "<img src='".get_template_directory_uri()."/images/slideshow/news/".$files[$i]."'>";
+							}
+						?>
+					</div>
 				</div>	
 			</div>	
 		</div>

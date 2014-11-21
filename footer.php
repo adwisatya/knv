@@ -34,7 +34,36 @@
 </footer><!-- #colophon .site-footer -->
 
 <?php wp_footer(); ?>
-	
+<script type='text/javascript'
+        src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'>
+    </script>
+
+    <!--script animasi-->
+    <script type='text/javascript'>
+     function simpleSlideshow(slideContainer, duration)
+    {
+        var currentSlide = $('img:nth-child(1)', slideContainer);
+         $(currentSlide)
+        .css({
+            opacity: 0
+        })
+        .appendTo(slideContainer)
+ 
+        .animate({
+            opacity: 1
+        }, 'normal', function(){
+            setTimeout(function(){
+                simpleSlideshow(slideContainer, duration);
+            }, duration);
+        })
+    }
+ 
+    $(function(){
+        var duration = 1000; // millsecond        
+        var slideContainer = $('#xslideshow');
+        simpleSlideshow(slideContainer, duration);
+    });
+    </script>
 </body>
 </html>
 <!-- footer sudah beres -->
