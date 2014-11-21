@@ -34,7 +34,7 @@
 </footer><!-- #colophon .site-footer -->
 
 <?php wp_footer(); ?>
-
+	
 </body>
 </html>
 <!-- footer sudah beres -->
