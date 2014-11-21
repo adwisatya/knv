@@ -64,6 +64,19 @@
         simpleSlideshow(slideContainer, duration);
     });
     </script>
+	
+	<!-- Ganti slideshow -->
+	<script>
+		function newsClick(){
+			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/news/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/news/".$files[$i]."\'>";}?>');
+		}
+		function eventClick(){
+			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/event/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/event/".$files[$i]."\'>";}?>');
+		}
+		function promoClick(){
+			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/promo/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/promo/".$files[$i]."\'>";}?>');
+		}
+	</script>
 </body>
 </html>
 <!-- footer sudah beres -->
