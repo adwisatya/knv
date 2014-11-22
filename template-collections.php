@@ -21,16 +21,17 @@ get_header(); ?>
 
 
 	<div id="feature-section" class="cf">	
-	<div class="latest-head grid_12">
-		<h3>How to Buy</h3>
+		<div class="latest-head grid_12">
+			<h3>How to Buy</h3>
+		</div>
+		<!-- edit bagian sini -->
+		<div id="primary" class="content-area container_12">
+			<div id="article-area" class="cf">
+				&nbsp;isi di sini &nbsp;
+			</div>
+			<div class="grid_12">
+				<?php kriesi_pagination(); ?>
+			</div>
+		</div><!-- #primary .content-area -->
 	</div>
-	<!-- edit bagian sini -->
-	<div id="primary" class="content-area container_12">
-		<div id="article-area" class="cf">
-			&nbsp;isi di sini &nbsp;
-		</div>
-		<div class="grid_12">
-			<?php kriesi_pagination(); ?>
-		</div>
-	</div><!-- #primary .content-area -->
 <?php get_footer(); ?>

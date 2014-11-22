@@ -113,4 +113,6 @@ p{
 			<?php kriesi_pagination(); ?>
 		</div>
 	</div><!-- #primary .content-area -->
+	</div>
+
 <?php get_footer(); ?>
