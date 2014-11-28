@@ -57,7 +57,7 @@
 						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 					</div>
 					<div class="top-ad">
-						<div id="search">	
+					<!--	<div id="search">	
 							<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 								<input type="text" name="s" id="s" value="Search ..." onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
 								<div class="select-type">	
@@ -68,7 +68,7 @@
 								</div>
 								<input type="submit" id="searchsubmit" value="Search" />
 							</form>
-						</div>
+						</div>-->
 					</div>
 					<div class="clearfix">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg">
