@@ -1,7 +1,7 @@
 <?php
 /**
 
-Template Name: Collections
+Template Name: Homepage
 
  * The main template file.
  *
@@ -18,20 +18,35 @@ Template Name: Collections
 
 
 get_header(); ?>
-
-
-	<div id="feature-section" class="cf">	
-		<div class="latest-head grid_12">
-			<h3>How to Buy</h3>
-		</div>
-		<!-- edit bagian sini -->
-		<div id="primary" class="content-area container_12">
-			<div id="article-area" class="cf">
-				&nbsp;isi di sini &nbsp;
-			</div>
-			<div class="grid_12">
-				<?php kriesi_pagination(); ?>
-			</div>
-		</div><!-- #primary .content-area -->
+			
+	<div class="clear"></div>
+	
+	<div id="collection-title" style="">
+		<h3>PRODUCTS</h3>
 	</div>
+
+	<div id="primary" class="content-area container_12">
+		<div id="article-area" class="cf ">
+			<div class="article-list cf">
+				<?php //include("artikel.php"); ?>
+				<center><h4>Browse by Collection</h4></center>
+
+				<div id="home-collection-container">
+					<div id="left-home-product">
+						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
+					</div>
+					<div id="right-home-product">
+						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="grid_12">
+			<?php kriesi_pagination(); ?>
+		</div>
+		
+	</div><!-- #primary .content-area -->
+
+
 <?php get_footer(); ?>
