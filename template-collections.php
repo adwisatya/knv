@@ -15,6 +15,7 @@ Template Name: collections
  */
 
 
+/* Bagian untuk collections */
 
 get_header(); ?>
 			
