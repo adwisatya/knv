@@ -1,7 +1,7 @@
 <?php
 /**
 
-Template Name: lookbook
+Template Name: collections
  * The main template file.
  *
  * This is the most generic template file in a WordPress theme
@@ -22,25 +22,11 @@ get_header(); ?>
 	<div class="clear"></div>
 	
 	<div id="collection-title" style="">
-		<h3>PRODUCTS</h3>
+		<h3>LOOKBOOK</h3>
 	</div>
 
 	<div id="primary" class="content-area container_12">
-		<div id="article-area" class="cf ">
-			<div class="article-list cf">
-				<?php //include("artikel.php"); ?>
-				<center><h4>Browse by Collection</h4></center>
-
-				<div id="home-collection-container">
-					<div id="left-home-product">
-						<h3>ZIGA</h3>
-					</div>
-					<div id="right-home-product">
-						<h3>HEIA</h3>
-					</div>
-				</div>
-			</div>
-		</div>
+		Slideshow here
 		
 		<div class="grid_12">
 			<?php kriesi_pagination(); ?>
