@@ -18,21 +18,32 @@ Template Name: collections
 /* Bagian untuk collections */
 
 get_header(); ?>
-			
+	<div id="feature-section" class="cf">
+		<div id="collection-title" style="margin-left:10px;">
+			<h3>LOOKBOOK</h3>
+		</div>
+		<div id="slide">
+			<div id="slider">
+				<div id="flexislider" class="flexslider">
+					<label onClick="newsClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="promoClick();">EARTH</label> &nbsp;&nbsp; <label  onClick="eventClick();">WATER</label>&nbsp;&nbsp; <label  onClick="promoClick();">AIR</label><br/>
+					<div id='xslideshow' onClick="">
+						<?php
+							$dir=	dirname(__FILE__)."/images/slideshow/news/";
+							$files = scandir($dir,1);
+							for($i = 0;$i < count($files)-2;$i++){
+								echo "<img src='".get_template_directory_uri()."/images/slideshow/news/".$files[$i]."'>";
+							}
+						?>
+					</div>
+				</div>	
+			</div>	
+		</div>
+	</div>
+	<div style="margin-bottom:50px;">
+		&nbsp;
+	</div>
 	<div class="clear"></div>
 	
-	<div id="collection-title" style="">
-		<h3>LOOKBOOK</h3>
-	</div>
-
-	<div id="primary" class="content-area container_12">
-		Slideshow here
-		
-		<div class="grid_12">
-			<?php kriesi_pagination(); ?>
-		</div>
-		
-	</div><!-- #primary .content-area -->
 
 
 <?php get_footer(); ?>
