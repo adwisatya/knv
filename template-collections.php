@@ -1,8 +1,7 @@
 <?php
 /**
 
-Template Name: Homepage
-
+Template Name: collections
  * The main template file.
  *
  * This is the most generic template file in a WordPress theme
@@ -33,10 +32,10 @@ get_header(); ?>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">
-						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
+						<h3>ZIGA</h3>
 					</div>
 					<div id="right-home-product">
-						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
+						<h3>HEIA</h3>
 					</div>
 				</div>
 			</div>
