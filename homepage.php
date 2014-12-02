@@ -50,10 +50,10 @@ get_header(); ?>
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
 				<div id="home-product-container">
-					<div id="left-home-product">
+					<div id="indeks-left-home-product">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
 					</div>
-					<div id="right-home-product">
+					<div id="indeks-right-home-product">
 						<img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png">
 					</div>
 				</div>
