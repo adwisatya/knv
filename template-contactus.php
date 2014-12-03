@@ -46,7 +46,7 @@ p{
 		<div id="article-area" class="cf">
 			<div>
 				<p>
-				Drop us an email, text us or catch us on social media to get your <font face ='big_noodle_titling.ttf'> KANAVAIA </font>
+				Drop us an email, text us or catch us on social media to get your <span class="knv"> KANAVAIA </span>
 				collections right away !
 				</p>
 				<p>(Don't forget to specify your orders and details to us)
