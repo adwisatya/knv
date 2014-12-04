@@ -25,7 +25,7 @@ get_header(); ?>
 		<div id="slide">
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
-					<label onClick="newsClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="promoClick();">EARTH</label> &nbsp;&nbsp; <label  onClick="eventClick();">WATER</label>&nbsp;&nbsp; <label  onClick="promoClick();">AIR</label><br/>
+					<label onClick="newsClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="promoClick();">EARTH</label> &nbsp;&nbsp; <label  onClick="eventClick();">WATER </label>&nbsp;&nbsp; <label  onClick="promoClick();">AIR</label><br/>
 					<div id='xslideshow' onClick="">
 						<?php
 							$dir=	dirname(__FILE__)."/images/slideshow/news/";
