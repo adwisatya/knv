@@ -22,7 +22,7 @@
 			<div class="entry-meta">
 				 <?php echo get_the_term_list( $post->ID, 'department', 'Department: ', ', ', '' ); ?> 
 			 </div><!-- .entry-meta -->
-			 <!--<p><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>-->
+			 <p><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>
 			 <h5>Price: <?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?></h5> 
 
 			 <!--
