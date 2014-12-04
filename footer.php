@@ -26,7 +26,7 @@
 <div class="container_6">
 	<div class="site-info">
 			<div class="fcred">
-				<div align="right"><a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri();?>/images/logo/footer.png" width="200px" height="35px"></a></div>
+				<div align="right"><a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri();?>/images/logo/footer-new.png" width="200px" height="35px"></a></div>
 			</div>		
 	</div><!-- .site-info -->	
 	
