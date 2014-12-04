@@ -15,7 +15,7 @@ Template Name: collections
  */
 
 
-/* Bagian untuk collections */
+/* Bagian untuk lookbook */
 
 get_header(); ?>
 	<div id="feature-section" class="cf">
