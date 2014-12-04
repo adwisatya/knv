@@ -47,7 +47,7 @@ get_header(); ?>
 				<div class="prod-info">
 
 					
-					<!--<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p>-->
+					<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p>
 					
 					<div class="prod-footer cf">
 						<span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span>
