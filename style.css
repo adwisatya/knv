@@ -34,6 +34,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	vertical-align: baseline;
 }
+
+span.knv{
+	font-family: 'BigNoodleTitling';
+}
 html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
@@ -110,11 +114,14 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px 0px 10px 0px;
 }
 
-
+h3{
+	font-family: 'BigNoodleTitling',sans-serif;
+	color:black;
+}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 24px; line-height: 30px; }
 	h2 { font-size: 22px; line-height: 26px; }
-	h3 { font-size: 18px; line-height: 24px; }
+	h3 { font-size: 28px; line-height: 30px; }
 	h4 { font-size: 16px; line-height: 20px; }
 	h5 { font-size: 14px; line-height: 18px; }
 	h6 { font-size: 14px; line-height: 18px; }
@@ -128,6 +135,7 @@ hr {
 }
 
 /* Text elements */
+
 p {
 	margin-bottom: 1.5em;
 	font-size: 14px;
@@ -527,11 +535,12 @@ embed,iframe,object {
 	display:none;
 }
 
+
 h1.site-title{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 32px;
-	margin:10px 0px 0px 0px;
+	margin:10px 0px 0px 0px;	
 }
 
 h1.site-title a:link, h1.site-title a:visited{
@@ -1497,3 +1506,11 @@ color:#fff;
 #schedule{
 background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.png");
 }
+
+#botmenu{
+	font-family: 'BigNoodleTitling';
+}
+
+a:hover {
+  color: #b38f51 ;
+} 
