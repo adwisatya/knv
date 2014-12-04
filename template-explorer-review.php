@@ -23,7 +23,7 @@ get_header(); ?>
 			<h3>Explorer Review</h3>
 		</div>
 	</div>
-	<div style="margin-bottom:50px;">
+	<div style="margin-bottom:50px;width:inherit;text-align:center;">
 		<h3>Coming soon</h3>
 	</div>
 	<div class="clear"></div>
