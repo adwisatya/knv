@@ -85,7 +85,7 @@
 						<a href="http://kanavaia.com/?page_id=12">About Us </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=18">LookBook </a>&nbsp;|&nbsp; 
 						<a href="http://localhost/KANAVAIA/explorer-review">Explorer Review </a>&nbsp;|&nbsp; 
-						<a href="http://localhost/KANAVAIA/products">Products </a>&nbsp;|&nbsp; 
+						<a href="http://kanavaia.com/?page_id=25">Products </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=16">Schedule </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=14">How to Buy</a>
 						<hr style="height:3px;color:black;">
