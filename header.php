@@ -73,7 +73,7 @@
 						</div>-->
 					</div>
 					<div class="clearfix">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg">
+						<a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg"></a>
 					</div>
 				</div>
 				
@@ -81,7 +81,7 @@
 					<hr style="width:90%;margin-bottom:5px;">
 					<div id="botmenu">
 						<?php //wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?>
-						<a href="http://localhost/KANAVAIA/">Home</a> &nbsp;|&nbsp; 
+						<a href="http://kanavaia.com/">Home</a> &nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=12">About Us </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=18">LookBook </a>&nbsp;|&nbsp; 
 						<a href="http://localhost/KANAVAIA/explorer-review">Explorer Review </a>&nbsp;|&nbsp; 
