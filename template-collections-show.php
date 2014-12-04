@@ -1,8 +1,7 @@
 <?php
 /**
 
-Template Name: Schedule
-
+Template Name: collection-category
  * The main template file.
  *
  * This is the most generic template file in a WordPress theme
@@ -16,23 +15,38 @@ Template Name: Schedule
  */
 
 
+/* Bagian untuk collections */
 
 get_header(); ?>
-	<div id="feature-section" class="cf">
-	<div class="latest-head grid_12">
-		<h3>New arrivals</h3>
+			
+	<div class="clear"></div>
+	
+	<div id="collection-title" style="">
+		<h3>PRODUCTS</h3>
 	</div>
-	<!-- edit bagian ini: sync dengan google calendar -->
+
 	<div id="primary" class="content-area container_12">
-		<div id="article-area" class="cf" align="center">
-			<h3>Mark your calendar and wait for us to visit you!</h3>
-			<iframe src="https://www.google.com/calendar/embed?src=a.dwisatya%40yahoo.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
+		<div id="article-area" class="cf ">
+			<div class="article-list cf">
+				<?php //include("artikel.php"); ?>
+				<center><h4>Browse by Collection</h4></center>
+
+				<div id="home-collection-container">
+					<div id="left-home-product">
+						<a href="http://kanavaia.com/?department=ziga"><h3>ZIGA</h3></a>
+					</div>
+					<div id="right-home-product">
+						<a href="http://kanavaia.com/?department=heia"><h3>HEIA</h3></a>
+					</div>
+				</div>
+			</div>
 		</div>
+		
 		<div class="grid_12">
 			<?php kriesi_pagination(); ?>
 		</div>
+		
 	</div><!-- #primary .content-area -->
-	</div>
 
 
 <?php get_footer(); ?>
