@@ -47,6 +47,7 @@ get_header(); ?>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf ">
 			
+			<!--
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
 				<div id="home-product-container">
@@ -58,6 +59,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+		-->
 		</div>
 		
 		<div class="grid_12">
