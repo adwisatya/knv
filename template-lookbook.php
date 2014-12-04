@@ -1,7 +1,7 @@
 <?php
 /**
 
-Template Name: collections
+Template Name: lookbook
  * The main template file.
  *
  * This is the most generic template file in a WordPress theme
