@@ -31,6 +31,10 @@ get_header(); ?>
 		<?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 		
 			<div class="product-box grid_3">
+				<div class="pricebar cf"> 
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
+				</div>
 				<div class="prod-thumb">
 					<?php
 						$thumb = get_post_thumbnail_id();
@@ -41,12 +45,9 @@ get_header(); ?>
 				</div>
 				
 				<div class="prod-info">
-					<div class="pricebar cf"> 
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
-					</div>
+
 					
-					<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p>
+					<!--<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p>-->
 					
 					<div class="prod-footer cf">
 						<span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span>

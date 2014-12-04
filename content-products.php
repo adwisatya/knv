@@ -24,7 +24,7 @@
 			<div class="entry-meta">
 				 <?php echo get_the_term_list( $post->ID, 'department', 'Department: ', ', ', '' ); ?> 
 			 </div><!-- .entry-meta -->
-			 <!--<p><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>-->
+			 <p><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>
 			 <div class="the-price cf">
 				 <h3>Price: <?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?></h3> 
 				 <a href="<?php echo get_post_meta($post->ID,'_product_info_product_link', true); ?>" class="buy-button">Purchase now </a>
