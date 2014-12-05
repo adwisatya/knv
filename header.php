@@ -99,4 +99,4 @@
 
 	</header><!-- #masthead .site-header -->
 
-	<div id="main" class="site-main cf">
+	<div id="main" class="site-main cf" style="height:450px;">
