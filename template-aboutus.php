@@ -25,7 +25,7 @@ get_header(); ?>
 	</div>
 	<!-- edit bagian sini -->
 <div style="text-align:center;">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg"/ width=50% height=50% >
+	<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg"/ width=50% height=50% >
 	</div>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf">
