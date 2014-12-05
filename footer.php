@@ -71,6 +71,12 @@
 		function promoClick(){
 			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/promo/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/promo/".$files[$i]."\'>";}?>');
 		}
+		function fireClick(){
+			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/lookbook/fire/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/lookbook/fire/".$files[$i]."\'>";}?>');
+		}
+		function earthClick(){
+			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/lookbook/earth/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/lookbook/earth/".$files[$i]."\'>";}?>');
+		}
 	</script>
 </body>
 </html>

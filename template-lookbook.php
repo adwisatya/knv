@@ -25,13 +25,13 @@ get_header(); ?>
 		<div id="slide">
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
-					<label onClick="newsClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="promoClick();">EARTH</label> &nbsp;&nbsp; <label  onClick="eventClick();">WATER </label>&nbsp;&nbsp; <label  onClick="promoClick();">AIR</label><br/>
+					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label <!--onClick="eventClick();"-->>WATER </label>&nbsp;&nbsp; <label <!--onClick="promoClick();"-->>AIR</label><br/>
 					<div id='xslideshow' onClick="">
 						<?php
-							$dir=	dirname(__FILE__)."/images/slideshow/news/";
+							$dir=	dirname(__FILE__)."/images/slideshow/lookbook/fire/";
 							$files = scandir($dir,1);
 							for($i = 0;$i < count($files)-2;$i++){
-								echo "<img src='".get_template_directory_uri()."/images/slideshow/news/".$files[$i]."'>";
+								echo "<img src='".get_template_directory_uri()."/images/slideshow/lookbook/fire/".$files[$i]."'>";
 							}
 						?>
 					</div>
