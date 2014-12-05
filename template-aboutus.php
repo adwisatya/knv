@@ -18,30 +18,22 @@ Template Name: About Us
 
 
 get_header(); ?>
-<style>
-@font-face{
-font-family :"BigNoodle";
-src : url (big_noodle_titling.ttf) format ("truetype");
-}
-
-h3 {
-font-family : "BigNoodle", sans-serif;
-}
-
-</style>
 
 	<div id="feature-section" class="cf">	
 	<div class="latest-head grid_12">
-		<h3><font face="<?php echo get_template_directory_uri(); ?>image/big_noodle_titling.ttf"> ABOUT US</font></h3>
+		<h3> ABOUT US</h3>
 	</div>
 	<!-- edit bagian sini -->
+<div style="text-align:center;">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg"/ width=50% height=50% >
+	</div>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf">
-			<div style="margin-left:20px;float:left;margin-right:20px;height:350px;">
+			<!--<div style="margin-left:20px;float:left;margin-right:20px;height:350px;">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg" width="150px" height="150px">
-			</div>
+			</div>-->
 			<div>
-				<p style="margin-left:20px;width:800px;height:350px;text-align:center;">
+				<p style="margin-left:20px;height:350px;text-align:center;">
 					<b style="font-size:35px;">KANAVAIA</b> was established in 2014. We offer the first ever <b>3in1 Detachable Bag</b> inspired by the beauty of nature. 
 You can have a duffel bag, a body bag and a backpack in just one bag. We also bring the ambience of Fire, Earth, Air and Water in our collections.
 We are committed to be your companion. So, start your journey with us and take your companion away with you!
