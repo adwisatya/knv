@@ -1516,3 +1516,6 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 a:hover {
   color: #b38f51 ;
 } 
+a:visited{
+  color: #B38F51;
+}
