@@ -335,7 +335,7 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color:#EE3B0A;
+	color:#B72D0B;
 }
 a:hover,
 a:focus,
@@ -1510,6 +1510,7 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 
 #botmenu{
 	font-family: 'BigNoodleTitling';
+	font-size: 20px;
 }
 
 a:hover {

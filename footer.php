@@ -12,15 +12,7 @@
 </div><!-- #main .site-main -->
 </div>
 
-<div id="bottom" style="margin-top:10px;">
-<div class="container_12 cf">
-	<ul>
-	<?php if ( !function_exists('dynamic_sidebar')
-	        || !dynamic_sidebar("Footer") ) : ?>  
-	<?php endif; ?>
-	</ul>
-</div>
-</div>
+
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 <div class="container_6">
