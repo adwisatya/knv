@@ -28,10 +28,10 @@ get_header(); ?>
 					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER </label>&nbsp;&nbsp; <label>AIR</label><br/>
 					<div id='xslideshow' onClick="">
 						<?php
-							$dir=	dirname(__FILE__)."/images/slideshow/lookbook/fire/";
+							$dir=	dirname(__FILE__)."/images/slideshow/news/";
 							$files = scandir($dir,1);
 							for($i = 0;$i < count($files)-2;$i++){
-								echo "<img src='".get_template_directory_uri()."/images/slideshow/lookbook/fire/".$files[$i]."'>";
+								echo "<img src='".get_template_directory_uri()."/images/slideshow/news/".$files[$i]."'>";
 							}
 						?>
 					</div>
