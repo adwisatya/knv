@@ -12,7 +12,7 @@
 </div><!-- #main .site-main -->
 </div>
 
-<div id="bottom">
+<div id="bottom" style="margin-top:10px;">
 <div class="container_12 cf">
 	<ul>
 	<?php if ( !function_exists('dynamic_sidebar')
