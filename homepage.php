@@ -19,7 +19,7 @@ Template Name: Homepage
 
 get_header(); ?>
 	<div id="feature-section" class="cf">
-		<div align="center" style="margin-bottom:15px;"><h3><b>WELCOME BACK, KANAVAIANS!</b></h3></div>
+		<div align="center"><h3><b>WELCOME BACK, KANAVAIANS!</b></h3></div>
 		<div id="slide">
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
