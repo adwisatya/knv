@@ -18,7 +18,7 @@ Template Name: Homepage
 
 
 get_header(); ?>
-	<div id="feature-section" class="cf">
+	<div id="feature-section" class="cf" style="margin-bottom:20px;">
 		<div align="center" style="margin-bottom:15px;"><h3><b>WELCOME BACK, KANAVAIANS!</b></h3></div>
 		<div id="slide">
 			<div id="slider">
@@ -43,11 +43,11 @@ get_header(); ?>
 	<div class="latest-head grid_12" style="display:none">
 		<h3>New arrivals</h3>
 	</div>
-	
+	<!--
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf ">
 			
-			<!--
+			
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
 				<div id="home-product-container">
@@ -59,14 +59,14 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		-->
+		
 		</div>
 		
 		<div class="grid_12">
 			<?php kriesi_pagination(); ?>
 		</div>
 		
-	</div><!-- #primary .content-area -->
+	</div>#primary .content-area -->
 
 
 <?php get_footer(); ?>
