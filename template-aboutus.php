@@ -33,11 +33,11 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg" width="150px" height="150px">
 			</div>-->
 			<div>
-				<p style="margin-left:20px;height:350px;text-align:center;">
-					<b style="font-size:35px;">KANAVAIA</b> was established in 2014. We offer the first ever <b>3in1 Detachable Bag</b> inspired by the beauty of nature. 
-You can have a duffel bag, a body bag and a backpack in just one bag. We also bring the ambience of Fire, Earth, Air and Water in our collections.
-We are committed to be your companion. So, start your journey with us and take your companion away with you!
-				</p>
+				<p style="margin-left:20px;height:350px;text-align:justify;">
+					<b style="font-size:35px;">KANAVAIA</b> was established in 2014. We offer the first ever <b>3in1 Detachable Bag</b> inspired by the beauty of nature.</p> 
+					<p style="margin-left:20px;height:350px;text-align:justify;">You can have a duffel bag, a body bag and a backpack in just one bag. We also bring the ambience of Fire, Earth, Air and Water in our collections.</p>
+					<p style="margin-left:20px;height:350px;text-align:justify;">We are committed to be your companion. So, start your journey with us and take your companion away with you!</p>
+				
 			</div>
 		</div>
 		<div class="grid_12">

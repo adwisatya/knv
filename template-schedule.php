@@ -20,7 +20,7 @@ Template Name: Schedule
 get_header(); ?>
 	<div id="feature-section" class="cf">
 	<div class="latest-head grid_12">
-		<h3>New arrivals</h3>
+		<h3>Events and New Arrivals</h3>
 	</div>
 	<!-- edit bagian ini: sync dengan google calendar -->
 	<div id="primary" class="content-area container_12">
