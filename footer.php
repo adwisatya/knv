@@ -26,7 +26,10 @@
 <div class="container_6">
 	<div class="site-info">
 			<div class="fcred">
-				<div align="center" style="float:left;color:white;">© 2014 Kanavaia. All Rights Reserved.</div><div align="right"><a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri();?>/images/logo/footer-new.png" width="200px" height="35px"></a></div>
+				<div align="center" style="color:white;">
+					© 2014 Kanavaia. All Rights Reserved.
+					<br> Powered by <a href="mailto:a.dwisaty4@yahoo.com">Guerilla Team</a>
+				</div>
 			</div>		
 	</div><!-- .site-info -->	
 	
