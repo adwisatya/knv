@@ -24,7 +24,7 @@ get_header(); ?>
 		<h3> ABOUT US</h3>
 	</div>
 	<!-- edit bagian sini -->
-<div style="text-align:center;">
+	<div style="text-align:center;">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg"/ width=50% height=50% >
 	</div>
 	<div id="primary" class="content-area container_12">
@@ -34,9 +34,10 @@ get_header(); ?>
 			</div>-->
 			<div>
 				<p style="margin-left:20px;height:350px;text-align:justify;">
-					<b style="font-size:35px;">KANAVAIA</b> was established in 2014. We offer the first ever <b>3in1 Detachable Bag</b> inspired by the beauty of nature.</p> 
-					<p style="margin-left:20px;height:350px;text-align:justify;">You can have a duffel bag, a body bag and a backpack in just one bag. We also bring the ambience of Fire, Earth, Air and Water in our collections.</p>
-					<p style="margin-left:20px;height:350px;text-align:justify;">We are committed to be your companion. So, start your journey with us and take your companion away with you!</p>
+					<b style="font-size:35px;">KANAVAIA</b> was established in 2014. We offer the first ever <b>3in1 Detachable Bag</b> inspired by the beauty of nature.<br/>
+					You can have a duffel bag, a body bag and a backpack in just one bag. We also bring the ambience of Fire, Earth, Air and Water in our collections.<br/>
+					We are committed to be your companion. So, start your journey with us and take your companion away with you!
+				</p>
 				
 			</div>
 		</div>
