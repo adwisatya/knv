@@ -33,10 +33,10 @@ get_header(); ?>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">
-						<h3>ZIGA</h3>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/collection/button/ziga.jpg">
 					</div>
 					<div id="right-home-product">
-						<h3>HEIA</h3>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/collection/button/heia.jpg">
 					</div>
 				</div>
 			</div>
