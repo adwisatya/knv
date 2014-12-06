@@ -33,10 +33,10 @@ get_header(); ?>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">
-						<a href="http://kanavaia.com/?department=ziga"><h3>ZIGA</h3></a>
+						<a href="http://kanavaia.com/?department=ziga"><img src="<?php echo get_template_directory_uri(); ?>/images/collection/button/ziga.jpg"></a>
 					</div>
 					<div id="right-home-product">
-						<a href="http://kanavaia.com/?department=heia"><h3>HEIA</h3></a>
+						<a href="http://kanavaia.com/?department=heia"><img src="<?php echo get_template_directory_uri(); ?>/images/collection/button/heia.jpg"></a>
 					</div>
 				</div>
 			</div>
