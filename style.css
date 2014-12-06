@@ -1424,12 +1424,11 @@ color:#fff;
 	margin-left: 150px;
 	width:150px;
 	height:50px;
-	background:#DDBD84;
 	text-align: center;
 }
 #left-home-product img{
-	width:150px;
-	height:50px;
+	width:300px;
+	height:200px;
 }
 #left-home-product:before {
     content: " ";
@@ -1447,13 +1446,12 @@ color:#fff;
 	margin-right: 150px;
 	width:150px;
 	height:50px;
-	background:#DDBD84;
 	text-align: center;
 }
 #right-home-product img{
 
-	width:150px;
-	height:50px;
+	width:300px;
+	height:200px;
 
 }
 #right-home-product:before {
