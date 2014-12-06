@@ -1427,6 +1427,10 @@ color:#fff;
 	background:#DDBD84;
 	text-align: center;
 }
+#left-home-product img{
+	width:150px;
+	height:50px;
+}
 #left-home-product:before {
     content: " ";
     display: inline-block;
@@ -1445,6 +1449,12 @@ color:#fff;
 	height:50px;
 	background:#DDBD84;
 	text-align: center;
+}
+#right-home-product img{
+
+	width:150px;
+	height:50px;
+
 }
 #right-home-product:before {
     content: " ";
