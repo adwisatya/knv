@@ -24,7 +24,9 @@ get_header(); ?>
 		</div>
 	</div>
 	<div style="margin-bottom:50px;width:inherit;text-align:center;">
-		<h3>Coming soon</h3>
+		<p style="font-size:35px;">
+				The explorers are still on their journey... <br/>Stay tuned for their stories here!
+		</p>
 	</div>
 	<div class="clear"></div>
 	

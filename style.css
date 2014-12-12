@@ -1427,8 +1427,8 @@ color:#fff;
 	text-align: center;
 }
 #left-home-product img{
-	width:300px;
-	height:200px;
+	width:350px;
+	height:220px;
 }
 #left-home-product:before {
     content: " ";
@@ -1450,8 +1450,8 @@ color:#fff;
 }
 #right-home-product img{
 
-	width:300px;
-	height:200px;
+	width:350px;
+	height:220px;
 
 }
 #right-home-product:before {
@@ -1517,8 +1517,8 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 }
 
 #botmenu{
-	font-family: 'BigNoodleTitling';
-	font-size: 20px;
+	font-family: 'Verdana';
+	font-size: 14px;
 }
 
 a:hover {
