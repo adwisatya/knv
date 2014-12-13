@@ -24,12 +24,12 @@ function warna($input){
 			<div id="content" class="site-content" role="main">
 
 			<?php if ( have_posts() ) : ?>
-
+				<!--
 				<header class="page-header grid_12">
 					<h1 class="page-title">
-						 <?php echo get_the_term_list( $post->ID, 'department', 'Department: ', ', ', '' ); ?> 					</h1>
-				</header><!-- .page-header -->
-
+						 <?php //echo get_the_term_list( $post->ID, 'department', 'Department: ', ', ', '' ); ?> 					</h1>
+				</header>
+				-->
 					<div class="article-list cf">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
