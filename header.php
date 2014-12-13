@@ -79,6 +79,8 @@
 				
 				<div class="sub-head">
 					<hr style="width:90%;margin-bottom:5px;">
+					
+					<!--
 					<div id="botmenu">
 						<?php //wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?>
 						<a href="http://kanavaia.com/">Home</a> &nbsp;|&nbsp; 
@@ -88,6 +90,18 @@
 						<a href="http://kanavaia.com/?page_id=25">Products </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=16">Schedule </a>&nbsp;|&nbsp; 
 						<a href="http://kanavaia.com/?page_id=14">How to Buy</a>
+						<hr style="height:3px;color:black;">
+					</div>
+					-->
+					<div id="botmenu">
+						<?php //wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?>
+						<a href="http://kanavaia.com/">Home</a> &nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/about-us/">About Us </a>&nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/lookbook/">LookBook </a>&nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/36/">Explorer Review </a>&nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/collections/">Products </a>&nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/schedule/">Schedule </a>&nbsp;|&nbsp; 
+						<a href="http://localhost/KANAVAIA/contact-us/">How to Buy</a>
 						<hr style="height:3px;color:black;">
 					</div>
 					<div class="searchbox">

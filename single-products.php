@@ -8,8 +8,8 @@
 
 get_header(); ?>
 
-		<div id="primary" class="content-area grid_9">
-			<div id="content" class="site-content" role="main">
+		<div id="primary" class="content-area grid_9" style="width:940px;">
+			<div id="content" class="site-content" role="main" style="width:940px;">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -26,5 +26,5 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
