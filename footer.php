@@ -54,7 +54,7 @@
     }
  
     $(function(){
-        var duration = 1000; // millsecond        
+        var duration = 3000; // millsecond        
         var slideContainer = $('#xslideshow');
         simpleSlideshow(slideContainer, duration);
     });
