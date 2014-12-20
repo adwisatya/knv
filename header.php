@@ -73,7 +73,7 @@
 						</div>-->
 					</div>
 					<div class="clearfix">
-						<a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.jpg"></a>
+						<a href="http://kanavaia.com"><img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.png"></a>
 					</div>
 				</div>
 				

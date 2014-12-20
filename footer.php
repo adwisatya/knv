@@ -14,7 +14,7 @@
 
 
 
-<footer id="colophon" class="site-footer" role="contentinfo" style="margin-bottom:50px;">
+<footer id="colophon" class="site-footer" role="contentinfo" style="margin-bottom:25px;">
 <div class="container_6">
 	<div class="site-info">
 			<div class="fcred">
