@@ -23,8 +23,7 @@ get_header(); ?>
 			<h3>LOOKBOOK</h3>
 		</div>
 		<div id="slide">
-			<div id="slider">
-				<div id="flexislider" class="flexslider">
+			<div id="slider" style="height:720px;">
 					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER (coming soon)</label>&nbsp;&nbsp; <label>AIR (coming soon)</label><br/>
 					<div id='xslideshow' onClick="">
 						<?php
