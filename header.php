@@ -47,8 +47,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site wrapper">
-<div class="container_12">
+<div id="page" class="hfeed site wrapper " style="height:820px;margin-bottom:20px;">
+<div class="container_12" >
 	<header id="masthead" class="site-header cf" role="banner">
 	
 			<div class="top grid_12 cf ">
@@ -114,4 +114,4 @@
 
 	</header><!-- #masthead .site-header -->
 
-	<div id="main" class="site-main cf" style="height:820px;">
+	<div id="main" class="site-main cf" >
