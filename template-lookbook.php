@@ -18,12 +18,13 @@ Template Name: lookbook
 /* Bagian untuk lookbook */
 
 get_header(); ?>
-	<div id="feature-section" class="cf">
-		<div id="collection-title" style="margin-left:10px;">
-			<h3>LOOKBOOK</h3>
-		</div>
+	<div id="feature-section" class="cf" >
+		<div align="center"><h3><b>LOOKBOOK</b></h3></div>
+	</div>
+	<div id="feature-section" class="cf" style="width:1240;margin-left:-150px;height:720px;">
 		<div id="slide">
 			<div id="slider" style="height:720px;">
+				<div id="flexislider" class="flexslider" style="height:720px;">
 					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER (coming soon)</label>&nbsp;&nbsp; <label>AIR (coming soon)</label><br/>
 					<div id='xslideshow' onClick="">
 						<?php
