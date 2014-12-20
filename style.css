@@ -624,8 +624,6 @@ input#s{
 #botmenu{
 	text-align:center;
 	font-weight:bold;
-	font-size: 14px;
-	font-family:"BookAntiqua";
 	}
 	
 #submenu {
@@ -1520,7 +1518,9 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 	font-family: 'Verdana';
 	font-size: 14px;
 }
-
+#main{
+	margin-top: -60px;
+}
 a:hover {
   color: #b38f51 ;
 } 

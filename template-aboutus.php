@@ -39,6 +39,7 @@ get_header(); ?>
 Our collections are especially made for sport lovers, travellers and all the adventurous KANAVAIANs out there. We are committed to be your companion. So, start your journey with us and take your companion away with you!
 				</p>
 		</div>
+		<br/>
 <p style="text-align:center; margin-left:10px;">
 <b>“The starting point of your journey is dream. Achieving is your journey, achievement is your goal. 
 <br/>
