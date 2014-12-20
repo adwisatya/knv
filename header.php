@@ -114,4 +114,4 @@
 
 	</header><!-- #masthead .site-header -->
 
-	<div id="main" class="site-main cf" style="height:550px;">
+	<div id="main" class="site-main cf" style="height:820px;">

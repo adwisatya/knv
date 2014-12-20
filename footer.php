@@ -11,9 +11,6 @@
 
 </div><!-- #main .site-main -->
 </div>
-
-
-
 <footer id="colophon" class="site-footer" role="contentinfo" style="margin-bottom:25px;">
 <div class="container_6">
 	<div class="site-info">

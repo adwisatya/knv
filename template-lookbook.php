@@ -17,14 +17,15 @@ Template Name: lookbook
 
 /* Bagian untuk lookbook */
 
-get_header(); ?>
+get_header(); 
+?>
 	<div id="feature-section" class="cf" >
 		<div align="center"><h3><b>LOOKBOOK</b></h3></div>
 	</div>
 	<div id="feature-section" class="cf">
 		<div id="slide">
-			<div id="slider">
-				<div id="flexisliderLookbook">
+			<div id="slider" style="height:720px;">
+				<div id="flexisliderLookbook" style="height:720px;">
 					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER (coming soon)</label>&nbsp;&nbsp; <label>AIR (coming soon)</label><br/>
 					<div id='xslideshowLookbook' onClick="">
 						<?php
@@ -39,7 +40,6 @@ get_header(); ?>
 			</div>	
 		</div>
 	</div>
-	
 
 
 <?php get_footer(); ?>
