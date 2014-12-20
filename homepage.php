@@ -18,9 +18,11 @@ Template Name: Homepage
 
 
 get_header(); ?>
-	<div id="feature-section" class="cf">
+	<div id="feature-section" class="cf" >
 		<div align="center"><h3><b>WELCOME BACK, KANAVAIANS!</b></h3></div>
-		<div id="slide">
+	</div>
+	<div id="feature-section" class="cf" style="width:1240;margin-left:-150px;">
+		<div id="slide" >
 			<div id="slider">
 				<div id="flexislider" class="flexslider">
 					<label onClick="newsClick();">News</label> &nbsp;|&nbsp; <label  <!--onClick="promoClick();"-->Promo </label> &nbsp;|&nbsp; <label  <!--onClick="eventClick();"-->Event </label><br/>

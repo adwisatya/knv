@@ -734,8 +734,7 @@ input#s{
 /* Homepage	 */
 	
 #feature-section{
-	margin:20px auto;
-	width:960px;
+	width:100%;
 }
 
 #slide{
@@ -1472,8 +1471,8 @@ color:#fff;
 #xslideshow img
 {
 	position: absolute;
-	width:940px;
-	height:400px;
+	width:1240px;
+	height:600px;
 	margin-bottom:15px;
 }
 
