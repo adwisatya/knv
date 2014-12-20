@@ -39,7 +39,7 @@ get_header(); ?>
 			</div>	
 		</div>
 	</div>
-	<div style="margin-bottom:50px;">
+	<div style="margin-bottom:500px;">
 		&nbsp;
 	</div>
 	<div class="clear"></div>
