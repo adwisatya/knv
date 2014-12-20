@@ -45,7 +45,7 @@ html {
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-/*	background: #fff;*/
+	background: #f5eade;
 }
 article,
 aside,
@@ -98,7 +98,7 @@ input,
 select,
 textarea {
 	color: #666666;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Aaargh', sans-serif;
 	font-size: 13px;
 	font-size: 1.3rem;
 	line-height: 1.5;
@@ -121,7 +121,7 @@ h3{
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 24px; line-height: 30px; }
 	h2 { font-size: 22px; line-height: 26px; }
-	h3 { font-size: 28px; line-height: 30px; }
+	h3 { font-size: 36px !important; line-height: 36px !important; }
 	h4 { font-size: 16px; line-height: 20px; }
 	h5 { font-size: 14px; line-height: 18px; }
 	h6 { font-size: 14px; line-height: 18px; }
@@ -624,8 +624,6 @@ input#s{
 #botmenu{
 	text-align:center;
 	font-weight:bold;
-	font-size: 14px;
-	font-family:"BookAntiqua";
 	}
 	
 #submenu {
@@ -1066,7 +1064,7 @@ li.rbanner{
 #bottom{
 	margin:0px;
 	padding:0px;
-	background:#434343;
+	background:#afa291;
 	}
 
 #bottom ul{
@@ -1519,10 +1517,17 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 	font-family: 'Verdana';
 	font-size: 14px;
 }
-
+#main{
+	margin-top: -60px;
+}
 a:hover {
   color: #b38f51 ;
 } 
 a:visited{
   color: #B38F51;
 }
+
+hr{
+	color:#afa291;
+}
+

@@ -26,7 +26,7 @@ get_header(); ?>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf" align="center">
 			<h3>Mark your calendar and wait for us to visit you!</h3>
-			<iframe src="https://www.google.com/calendar/embed?src=a.dwisatya%40yahoo.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
+			<iframe src="https://www.google.com/calendar/embed?src=shop%40kanavaia.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
 		</div>
 		<div class="grid_12">
 			<?php kriesi_pagination(); ?>
