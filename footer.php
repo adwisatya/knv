@@ -37,8 +37,7 @@
     <script type='text/javascript'>
      function simpleSlideshow(slideContainer, duration)
     {
-		document.getElementById('mainmain').style.height = '100px';
-        var currentSlide = $('img:nth-child(1)', slideContainer);
+	var currentSlide = $('img:nth-child(1)', slideContainer);
          $(currentSlide)
         .css({
             opacity: 0
