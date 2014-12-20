@@ -98,7 +98,7 @@ input,
 select,
 textarea {
 	color: #666666;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Aaargh', sans-serif;
 	font-size: 13px;
 	font-size: 1.3rem;
 	line-height: 1.5;
@@ -121,7 +121,7 @@ h3{
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 24px; line-height: 30px; }
 	h2 { font-size: 22px; line-height: 26px; }
-	h3 { font-size: 28px; line-height: 30px; }
+	h3 { font-size: 36px !important; line-height: 36px !important; }
 	h4 { font-size: 16px; line-height: 20px; }
 	h5 { font-size: 14px; line-height: 18px; }
 	h6 { font-size: 14px; line-height: 18px; }

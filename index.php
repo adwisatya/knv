@@ -39,7 +39,9 @@ get_header(); ?>
 				<?php get_template_part( 'no-results', 'index' ); ?>
 
 			<?php endif; ?>
-
+<div style="text-align:center;"> 
+				Dream It, Achieve It, Nailed It 
+			</div>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
