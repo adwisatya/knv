@@ -57,6 +57,8 @@
         var duration = 3000; // millsecond        
         var slideContainer = $('#xslideshow');
         simpleSlideshow(slideContainer, duration);
+        var slideContainer2 = $('#xslideshowLookbook');
+        simpleSlideshow(slideContainer2, duration);
     });
     </script>
 	
@@ -72,10 +74,10 @@
 			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/slideshow/promo/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/slideshow/promo/".$files[$i]."\'>";}?>');
 		}
 		function fireClick(){
-			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/lookbook/fire/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/lookbook/fire/".$files[$i]."\'>";}?>');
+			$('#xslideshowLookbook').html('	<?php $dir=	dirname(__FILE__)."/images/lookbook/fire/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/lookbook/fire/".$files[$i]."\'>";}?>');
 		}
 		function earthClick(){
-			$('#xslideshow').html('	<?php $dir=	dirname(__FILE__)."/images/lookbook/earth/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/lookbook/earth/".$files[$i]."\'>";}?>');
+			$('#xslideshowLookbook').html('	<?php $dir=	dirname(__FILE__)."/images/lookbook/earth/"; $files = scandir($dir,1); for($i = 0;$i < count($files)-2;$i++){echo "<img src=\'".get_template_directory_uri()."/images/lookbook/earth/".$files[$i]."\'>";}?>');
 		}
 	</script>
 </body>

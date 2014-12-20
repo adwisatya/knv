@@ -21,12 +21,12 @@ get_header(); ?>
 	<div id="feature-section" class="cf" >
 		<div align="center"><h3><b>LOOKBOOK</b></h3></div>
 	</div>
-	<div id="feature-section" class="cf" style="width:1240;margin-left:-150px;height:720px;">
+	<div id="feature-section" class="cf">
 		<div id="slide">
-			<div id="slider" style="height:720px;">
-				<div id="flexislider" class="flexslider" style="height:720px;">
+			<div id="slider">
+				<div id="flexisliderLookbook">
 					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER (coming soon)</label>&nbsp;&nbsp; <label>AIR (coming soon)</label><br/>
-					<div id='xslideshow' onClick="">
+					<div id='xslideshowLookbook' onClick="">
 						<?php
 							$dir=	dirname(__FILE__)."/images/lookbook/fire/";
 							$files = scandir($dir,1);
@@ -39,10 +39,6 @@ get_header(); ?>
 			</div>	
 		</div>
 	</div>
-	<div style="margin-bottom:500px;">
-		&nbsp;
-	</div>
-	<div class="clear"></div>
 	
 
 
