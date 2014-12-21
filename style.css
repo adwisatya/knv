@@ -15,7 +15,10 @@ and Blueprint http://www.blueprintcss.org/
 
 /* =Reset
 -------------------------------------------------------------- */
-
+ @font-face {
+	font-face: 'BNT';
+	src: url('http://server1.bangsatya.com/upload/big_noodle_titling.ttf');
+ }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -115,7 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h3{
-	font-family: 'BigNoodleTitling',sans-serif;
+	font-family: BigNoodleTitling;
 	color:black;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -1556,3 +1559,4 @@ div.navmenu:hover{
 .pemisah{
 	float:left;
 	}
+	

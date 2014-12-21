@@ -43,7 +43,12 @@
 <![endif]-->
 
 <?php wp_head(); ?>
-
+<style type="text/css">
+   @font-face {
+         font-family: "Font Digital";
+         src: url('http://server1.bangsatya.com/upload/big_noodle_titling.ttf');
+         }
+</style>
 </head>
 
 <body <?php body_class(); ?>>

@@ -20,7 +20,7 @@ Template Name: lookbook
 get_header(); 
 ?>
 	<div id="feature-section" class="cf" >
-		<div align="center"><h3><b>LOOKBOOK</b></h3></div>
+		<div align="center"><h3 style="font-family:'Font Digital';"><b>LOOKBOOK</b></h3></div>
 	</div>
 	<div id="feature-section" class="cf">
 		<div id="slide">

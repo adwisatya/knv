@@ -34,12 +34,12 @@ function warna($input){
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-						<div class="product-box grid_3" style="border:solid;">
-							<div class="pricebar cf"> 
+						<div class="product-box grid_3" style="border:solid;width:400px;">
+							<div class="pricebar cf" style="width:400px;"> 
 								<h2 style="color:<?php warna(get_post_meta($post->Title)); ?>;"><a href="<?php the_permalink(); ?>" style="color:<?php warna(get_post_meta($post->Title)); ?>;"><?php the_title(); ?></a></h2>
 								<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
 							</div>
-							<div class="prod-thumb">
+							<div class="prod-thumb"  style="width:400px;">
 								<?php
 									$thumb = get_post_thumbnail_id();
 									$img_url = wp_get_attachment_url( $thumb,'full' ); //get full URL to image (use "large" or "medium" if the images too big)
@@ -48,7 +48,7 @@ function warna($input){
 								<?php if($image) : ?> <a href="<?php the_permalink(); ?>"><img src="<?php echo $image ?>"/></a> <?php endif; ?>
 							</div>
 							
-							<div class="prod-info">
+							<div class="prod-info"  style="width:400px;">
 								<!--<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p> -->
 								
 								<div class="prod-footer cf" style="border:solid;background-color:#afa291;">
