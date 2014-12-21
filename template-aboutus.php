@@ -45,7 +45,7 @@ bagian modalnya  -->
    data-target="#basicModal">
 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 </a>
-<!--selesai>
+<!--selesai-->
 
 	<div id="feature-section" class="cf">	
 	<div class="latest-head grid_12">
