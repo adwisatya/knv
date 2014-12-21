@@ -36,7 +36,7 @@ function warna($input){
 
 						<div class="product-box grid_3" style="border:solid;width:400px;">
 							<div class="pricebar cf" style="width:400px;"> 
-								<h2 style="color:<?php warna(get_post_meta($post->Title)); ?>;"><a href="<?php the_permalink(); ?>" style="color:<?php warna(get_post_meta($post->Title)); ?>;"><?php the_title(); ?></a></h2>
+								<center><h2 style="color:<?php warna(get_post_meta($post->Title)); ?>;"><a href="<?php the_permalink(); ?>" style="color:<?php warna(get_post_meta($post->Title)); ?>;"><?php the_title(); ?></a></h2></center>
 								<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
 							</div>
 							<div class="prod-thumb"  style="width:400px;">
@@ -45,14 +45,14 @@ function warna($input){
 									$img_url = wp_get_attachment_url( $thumb,'full' ); //get full URL to image (use "large" or "medium" if the images too big)
 									$image = aq_resize( $img_url, 180, 150, false ); //resize & crop the image
 								?>
-								<?php if($image) : ?> <a href="<?php the_permalink(); ?>"><img src="<?php echo $image ?>"/></a> <?php endif; ?>
+								<?php if($image) : ?> <a href="<?php the_permalink(); ?>"><img src="<?php echo $image ?>"/ width="350px" height="300px"></a> <?php endif; ?>
 							</div>
 							
 							<div class="prod-info"  style="width:400px;">
 								<!--<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p> -->
 								
 								<div class="prod-footer cf" style="border:solid;background-color:#afa291;">
-									<span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span>
+									<center><span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span></center>
 									<span class="pright"><a href="<?php echo get_post_meta($post->ID,'_product_info_product_link', true); ?>">Buy Now</a> </span>
 								</div>
 							</div>
