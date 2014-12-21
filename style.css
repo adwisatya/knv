@@ -1523,6 +1523,7 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 #botmenu{
 	font-family: 'Verdana';
 	font-size: 14px;
+	
 }
 #main{
 	margin-top: -60px;
@@ -1538,3 +1539,20 @@ hr{
 	color:#afa291;
 }
 
+.navmenu{
+	float:left;
+}
+div.navmenu:hover{
+	height:30px;
+	background-color:white;
+	margin-bottom:-10px;
+}
+#navContainer{
+	text-align:center;
+	width: 75%;
+    margin: 0 auto;
+	
+}
+.pemisah{
+	float:left;
+	}

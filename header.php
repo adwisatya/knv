@@ -83,14 +83,22 @@
 					
 					<div id="botmenu">
 						<?php //wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?>
-						<a href="http://kanavaia.com/">Home</a> &nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=12">About Us </a>&nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=18">LookBook </a>&nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=37">Explorer Review </a>&nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=25">Products </a>&nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=16">Schedule </a>&nbsp;|&nbsp; 
-						<a href="http://kanavaia.com/?page_id=14">How to Buy</a>
-						<hr style="height:3px;color:black;">
+						<div id="navContainer" align="center">
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/">HOME</a></div>
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=12">ABOUT US </a></div>
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=18">LOOKBOOK </a></div>
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=37">EXPLORER REVIEW </a></div> 
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=25">PRODUCTS </a></div>
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=16">SCHEDULE </a></div>
+							<div class="pemisah">&nbsp;|&nbsp;</div>
+							<div id="navHome" class="navmenu"><a href="http://kanavaia.com/?page_id=14">HOW TO BUY</a></div>
+						</div>
+						&nbsp;<hr style="height:3px;color:black;">
 					</div>
 					<!--
 					<div id="botmenu">
