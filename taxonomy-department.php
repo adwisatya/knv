@@ -36,7 +36,7 @@ function warna($input){
 
 						<div class="product-box grid_3" style="border:solid;width:400px;">
 							<div class="pricebar cf" style="width:400px;text-align:center;"> 
-								<center><h2 style="margin-left:350px;width:'400px';text-align:'center';color:<?php warna(get_post_meta($post->Title)); ?>;"><a href="<?php the_permalink(); ?>" style="color:<?php warna(get_post_meta($post->Title)); ?>;"><?php the_title(); ?></a></h2></center>
+								<center><font style="width:'400px';text-align:'center';color:<?php warna(get_post_meta($post->Title)); ?>;"><a href="<?php the_permalink(); ?>" style="color:<?php warna(get_post_meta($post->Title)); ?>;"><?php the_title(); ?></a></font></center>
 								<span class="pricetag"><?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?> </span>
 							</div>
 							<div class="prod-thumb"  style="width:400px;">
