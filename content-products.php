@@ -18,7 +18,7 @@
 					<?php if($image) : ?> <a class="fancybox" href="<?php echo $img_url?>"><img src="<?php echo $image ?>"/></a> <?php endif; ?>
 		</div>
 		
-		<header class="entry-header" style="width:550;">
+		<header class="entry-header" style="width:550px;">
 			 <p style="text-align:justify;"><?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?></p>
 			 <h5>Price: <?php echo get_post_meta($post->ID,'_product_info_product_price', true); ?></h5> 
 
