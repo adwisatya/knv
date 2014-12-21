@@ -29,7 +29,7 @@ get_header(); ?>
 		<div id="article-area" class="cf ">
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
-				<center><h3>Browse by Collection</h3></center>
+				<center><h3>COLLECTIONS</h3></center>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">

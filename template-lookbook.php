@@ -26,7 +26,7 @@ get_header();
 		<div id="slide">
 			<div id="slider" style="height:720px;">
 				<div id="flexisliderLookbook" style="height:720px;">
-					<label onClick="fireClick();">FIRE</label> &nbsp;&nbsp; <label  onClick="earthClick();">EARTH</label> &nbsp;&nbsp; <label>WATER (coming soon)</label>&nbsp;&nbsp; <label>AIR (coming soon)</label><br/>
+					<label onClick="fireClick();" style="margin-left:10px;"><b>FIRE</b></label> &nbsp;&nbsp; <label  onClick="earthClick();"><b>EARTH</b></label> &nbsp;&nbsp; <label style="display:none">WATER (coming soon)</label>&nbsp;&nbsp; <label  style="display:none">AIR (coming soon)</label><br/>
 					<div id='xslideshowLookbook' onClick="">
 						<?php
 							$dir=	dirname(__FILE__)."/images/lookbook/fire/";

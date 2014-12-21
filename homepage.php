@@ -24,7 +24,7 @@ get_header(); ?>
 	<div id="feature-section" class="cf" style="width:1240;margin-left:-150px;height:720px;">
 		<div id="slide">
 			<div id="slider" style="height:720px;">
-				<div id="flexislider" class="flexslider" style="height:720px;">
+				<div id="flexislider" class="flexslider" style="height:720px;background-color:none;">
 					<label onClick="newsClick();">News</label> &nbsp;|&nbsp; <label  <!--onClick="promoClick();"-->Promo </label> &nbsp;|&nbsp; <label  <!--onClick="eventClick();"-->Event </label><br/>
 					<div id='xslideshow' onClick="">
 						<?php

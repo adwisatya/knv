@@ -21,14 +21,6 @@
 
 /* FlexSlider Necessary Styles
 *********************************/ 
-.flexslider {
-margin: 0; 
-padding: 0;
-width:1240px;
-height:600px;
-font-size:16px;
-font-weight:bold;
-}
 #flexsliderLookbook {
 margin: 0; 
 padding: 0;
@@ -54,7 +46,19 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme  [[[ EDIT HERE ONLY ]]]
 *********************************/
-.flexslider {margin: 0 0 0px; background: #fff;  position: relative;  zoom: 1; max-height: 360px;}
+.flexslider {
+margin: 0; 
+padding: 0;
+width:1240px;
+height:600px;
+font-size:16px;
+font-weight:bold;
+margin: 0 0 0px; 
+background: #F5EADE; 
+position: relative;  
+zoom: 1; 
+max-height: 360px;
+}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}

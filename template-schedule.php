@@ -25,8 +25,8 @@ get_header(); ?>
 	<!-- edit bagian ini: sync dengan google calendar -->
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf" align="center">
-			<h3>Mark your calendar and wait for us to visit you!</h3>
-			<iframe src="https://www.google.com/calendar/embed?src=shop%40kanavaia.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
+			<h3>Mark your calendar and wait for our new arrivals and to visit you!</h3>
+			<iframe src="https://www.google.com/calendar/embed?src=kanavaia.id%40gmail.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>		
 		</div>
 		<div class="grid_12">
 			<?php kriesi_pagination(); ?>
