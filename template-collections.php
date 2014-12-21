@@ -24,12 +24,12 @@ get_header(); ?>
 	<div id="collection-title" style="">
 		<h3>PRODUCTS</h3>
 	</div>
+				<center><h3>COLLECTIONS</h3></center>
 
-	<div id="primary" class="content-area container_12">
+	<div id="primary" class="content-area container_12" style="margin-left:-30px;">
 		<div id="article-area" class="cf ">
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
-				<center><h3>COLLECTIONS</h3></center>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">

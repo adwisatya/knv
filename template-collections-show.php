@@ -25,11 +25,11 @@ get_header(); ?>
 		<h3>PRODUCTS</h3>
 	</div>
 
-	<div id="primary" class="content-area container_12">
+	<div id="primary" class="content-area container_12" style="margin-left:-10px;">
 		<div id="article-area" class="cf ">
 			<div class="article-list cf">
 				<?php //include("artikel.php"); ?>
-				<center><h4>Browse by Collection</h4></center>
+				<center><h4>COLLECTIONS</h4></center>
 
 				<div id="home-collection-container">
 					<div id="left-home-product">
