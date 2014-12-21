@@ -41,7 +41,9 @@ get_header(); ?>
 
 <a href="#" class="btn btn-lg btn-success"
    data-toggle="modal"
-   data-target="#basicModal">Click to open Modal</a>
+   data-target="#basicModal">
+<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg" width="150px" height=auto>
+</a>
 
 
 	<div id="feature-section" class="cf">	
