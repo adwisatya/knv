@@ -18,7 +18,8 @@ Template Name: About Us
 
 
 get_header(); ?>
-
+<!--modal :
+bagian modalnya  -->
 <div class="modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -29,7 +30,7 @@ get_header(); ?>
             <div class="modal-body">
                 <p>Deskripsi<br/>
                 	Harga<br/>
-                	Lalala</p>
+                	</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -38,13 +39,13 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
+<!-- yang dilink-->
 <a href="#" class="btn btn-lg btn-success"
    data-toggle="modal"
    data-target="#basicModal">
-<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg" width="150px" height=auto>
+<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 </a>
-
+<!--selesai>
 
 	<div id="feature-section" class="cf">	
 	<div class="latest-head grid_12">
@@ -57,7 +58,7 @@ get_header(); ?>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf">
 			<div style="margin-left:20px;float:left;margin-right:20px;">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg" width="150px" height=auto>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 			</div>
 			<div>
 				<p style="margin-left:20px;text-align:left;">
