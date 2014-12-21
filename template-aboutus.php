@@ -18,8 +18,7 @@ Template Name: About Us
 
 
 get_header(); ?>
-<!--modal :
-bagian modalnya  -->
+
 <div class="modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -45,7 +44,7 @@ bagian modalnya  -->
    data-target="#basicModal">
 <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 </a>
-<!--selesai>
+
 
 	<div id="feature-section" class="cf">	
 	<div class="latest-head grid_12">
