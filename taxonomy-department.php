@@ -51,8 +51,8 @@ function warna($input){
 							<div class="prod-info"  style="width:400px;">
 								<!--<p> <?php echo get_post_meta($post->ID,'_product_info_product_description', true); ?> </p> -->
 								
-								<div class="prod-footer cf" style="border:solid;background-color:#afa291;text-align:center;">
-									<center><span class="pleft"> <a href="<?php the_permalink(); ?>">View details</a> </span></center>
+								<div class="prod-footer cf" style="border:solid;background-color:#afa291;">
+									<center><a href="<?php the_permalink(); ?>">View details</a></center>
 									<span class="pright"><a href="<?php echo get_post_meta($post->ID,'_product_info_product_link', true); ?>">Buy Now</a> </span>
 								</div>
 							</div>
