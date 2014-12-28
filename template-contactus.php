@@ -56,7 +56,7 @@ p{
 						<tr>
 						<th>
 				<a href = "mailto:shop@kanavaia.com">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/emailicon.png" width="5%" height="5%" ></img> </a>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/emailicon.png" width="5%" height=auto ></img> </a>
 				</th>				
 				<td><a href = "mailto:shop@kanavaia.com"> shop@kanavaia.com</a></td>
 				</tr>
@@ -64,7 +64,7 @@ p{
 				<tr>
 			<th>
 				<a href = "http://www.instagram.com/kanavaia">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/instaicon.png" width="5%" height="5%" ></img> </a> 
+					<img src="<?php echo get_template_directory_uri(); ?>/images/instaicon.png" width="5%" height=auto ></img> </a> 
 				</th>
 				<td>
 					<a href = "http:// www.instagram.com/kanavaia"> kanavaia </a>
@@ -75,7 +75,7 @@ p{
 		<tr>
 					<th>						
 				<a href = "http://www.twitter.com/kanavaia">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/twittericon.png" width="5%" height="5%" ></img> </a>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/twittericon.png" width="5%" height=auto ></img> </a>
 				</th>
 				<td>
 						<a href= " http://www.twitter.com/kanavaia">@kanavaia
@@ -84,13 +84,13 @@ p{
 		</tr>
 				<tr>
 					<th>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/lineicon.png" width="5%" height="5%" ></img> 
+				<img src="<?php echo get_template_directory_uri(); ?>/images/lineicon.png" width="5%" height=auto ></img> 
 			</th>
 				<td>kanavaia</td>
 				</tr>
 				<tr>
 					<th>
-						<img src="<?php echo get_template_directory_uri(); ?>/images/phoneicon.png" width="5%" height="5%" ></img>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/phoneicon.png" width="5%" height=auto ></img>
 					</th>
 						<td> +6281905944988</td>
 					</tr>
@@ -98,7 +98,7 @@ p{
 				<tr>
 					<th>
 				<a href ="http://www.facebook.com/kanavaia.">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/facebookicon.png" width="5%" height="5%" ></img> </a>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/facebookicon.png" width="5%" height=auto ></img> </a>
 				</th>
 					<td>
 						<a href = "http://www.facebook.com/kanavaia.">kanavaia.</a>
