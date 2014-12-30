@@ -1529,7 +1529,7 @@ background-image: url("<?php echo get_template_directory_uri(); ?>/images/paper.
 	
 }
 #main{
-	margin-top: -60px;
+	margin-top: 0px;
 }
 a:hover {
   color: #b38f51 ;
@@ -1548,7 +1548,7 @@ hr{
 div.navmenu:hover{
 	height:30px;
 	background-color:white;
-	margin-bottom:-10px;
+	margin-bottom:-1is0px;
 }
 #navContainer{
 	text-align:center;
