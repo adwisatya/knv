@@ -19,31 +19,24 @@ Template Name: About Us
 
 get_header(); ?>
 
-<div class="modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-            </div>
-            <div class="modal-body">
-                <p>Deskripsi<br/>
-                	Harga<br/>
-                	Lalala</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-    </div>
-  </div>
-</div>
-
-<a href="#" class="btn btn-lg btn-success"
-   data-toggle="modal"
-   data-target="#basicModal">
-<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
+ <!-- Button trigger modal -->
+<a class="btn btn-primary btn-lg" href="#myModal1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 </a>
+ 
+<!-- Modal -->
+<div id="myModal1" class="modal fade" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" type="button" data-dismiss="modal">×</button>
+<h4 class="modal-title">Get to the Front of The Queue</h4>
+</div>
+<div class="modal-body">...</div>
+<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+<button class="btn btn-primary" type="button">Save changes</button></div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 	<div id="feature-section" class="cf">	
