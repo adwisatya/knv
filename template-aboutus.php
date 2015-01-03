@@ -42,7 +42,7 @@ get_header(); ?>
 <a href="#" class="btn btn-lg btn-success"
    data-toggle="modal"
    data-target="#basicModal">
-<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg" width="150px" height=auto>
+<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 </a>
 
 
@@ -57,7 +57,7 @@ get_header(); ?>
 	<div id="primary" class="content-area container_12">
 		<div id="article-area" class="cf">
 			<div style="margin-left:20px;float:left;margin-right:20px;">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/about us.jpg" width="150px" height=auto>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/aboutus.jpg" width="150px" height=auto>
 			</div>
 			<div>
 				<p style="margin-left:20px;text-align:left;">
