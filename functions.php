@@ -189,6 +189,15 @@ if (!$fflink || $x && ($x == $ffref)) {
  echo $fflink;
 }	
 
+function themeprefix_bootstrap_modals() {
+wp_register_script ( 'modaljs' , get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '1', true );
+wp_register_style ( 'modalcss' , get_stylesheet_directory_uri() . '/css/bootstrap.css', '' , '', 'all' );
+wp_enqueue_script( 'modaljs' );
+wp_enqueue_style( 'modalcss' );
+}
+ 
+add_action( 'wp_enqueue_scripts', 'themeprefix_bootstrap_modals');
+ 
 /**
  * Implement the Custom Header feature
  */
